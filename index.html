@@ -2,9 +2,28 @@
 <html>
 <head>
   <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="text-align:center;">
-  <h1>🎮 Tic Tac Toe Game</h1>
-  <p>My project is live 🚀</p>
+<body>
+
+<h1>🎮 Tic Tac Toe</h1>
+
+<div class="board">
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+  <div class="cell" onclick="play(this)"></div>
+</div>
+
+<h2 id="status"></h2>
+<button onclick="resetGame()">Restart</button>
+
+<script src="script.js"></script>
+
 </body>
 </html>
